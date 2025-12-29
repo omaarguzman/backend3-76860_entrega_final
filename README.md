@@ -25,3 +25,13 @@ El proyecto sigue un patrón de diseño basado en capas para desacoplar la lógi
 * **`src/controllers` (Controladores):** Maneja la lógica de las peticiones (request) y respuestas (response) HTTP.
 * **`src/routes` (Rutas):** Define los endpoints de la API y los asocia a un controlador.
 * **`src/utils`:** Contiene funciones de ayuda (helpers) como el hasheo de contraseñas y la configuración de `multer`.
+
+## 🐳 Docker
+
+El proyecto ha sido dockerizado para facilitar su despliegue.
+
+### Instalación y Ejecución
+
+1. **Descargar la imagen:**
+   ```bash
+   docker pull jogrdocker/adopciones-app:latest
